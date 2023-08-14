@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Sen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo" aria-label="Button to go to homepage">
+              <img src="images/logo.svg" alt="D&M logo" class="logo__img" />
+            </a>
+            <nav class="menu">
+              <button class="menu__btn" type="button" aria-label="Open menu" title="Button to open the menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="new-cars.html" class="menu__list-link" aria-label="New cars" title="Go to the list of new cars">NEW CARS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link" aria-label="Pre-owned cars" title="Go to the list of used cars">PRE-OWNED CARS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link" aria-label="Finance" title="Go to the financing section">FINANCE</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link" aria-label="Lease vs Buy comparison" title="Go to the section comparing lease and purchase">LEASE VS BUY</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link menu__list-link--active" aria-label="Contact us" title="Go to contact us">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="contacts">
+          <div class="container">
+            <h2 class="section-title contacts__title">Contact Us</h2>
+            <p class="contacts__text">
+              Feel free to contact us with questions, potencial partnerships or
+              media inquiries
+            </p>
+            <form class="form" action="#">
+              <input class="form__input" type="text" placeholder="Name">
+              <input class="form__input" type="email" placeholder="E-mail">
+              <textarea class="form__textarea" placeholder="Your text"></textarea>
+              <button class="form__btn" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="container">
+            <div class="blog__items">
+              <div class="blog__item">
+                <img src="images/blog-1.jpg" alt="Photo of a car on a hill" class="blog__item-img">
+                <h4 class="blog__item-title">An easier way to buy your next Toyota</h4>
+                <a href="#" class="blog__item-link">more</a>
+              </div>
+              <div class="blog__item">
+                <img src="images/blog-2.jpg" alt="Photo of a dog sticking its head out of a window" class="blog__item-img">
+                <h4 class="blog__item-title">A Guide to Road-Tripping With Pets</h4>
+                <a href="#" class="blog__item-link">more</a>
+              </div>
+            </div>
+            <a href="#" class="showmore__link">SHOW more</a>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Products</p>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Used" title="Go to used cars list">Used</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="New" title="Go to new cars list">New</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Sell" title="Sell your car">Sell your car</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Resources</p>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Blog" title="Go to blog">Blog</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="FAQ" title="Go to FAQ">FAQ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Information for dealers" title="Go to contact us">Contact us</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title" aria-label="Work" title="Work With TrueCar">Work With TrueCar</p>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Dealers" title="Learn more about us">Dealers</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Partners" title="Partners of TrueCar">Partners</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">About</p>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="About us" title="Go to section about us">About us</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Team" title="Go to the team section">Team</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link" aria-label="Careers" title="Go to the careers section">Careers</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="app">
+            <li class="app__item">
+              <a href="#" class="app__item-link" aria-label="Appstore" title="Go to app store">
+                <img class="app__item-img" src="images/appstore.svg" alt="Appstore logo" />
+              </a>
+            </li>
+            <li class="app__item">
+              <a href="#" class="app__item-link" aria-label="Googleplay" title="Go to google play">
+                <img class="app__item-img" src="images/googleplay.svg" alt="Google play logo" />
+              </a>
+            </li>
+          </ul>
+          <div class="footer__copy">
+            <p class="footer__copy-text">
+              For questions about the TrueCar Auto Buying Service please call
+              1-888-878-3227. Certified Dealers are contractually obligated by
+              TrueCar to meet certain customer service requirements and complete
+              the TrueCar Dealer Certification Program.
+            </p>
+            <p class="footer__copy-text">
+              TrueCar does not broker, sell, or lease motor vehicles. Unless
+              otherwise noted, all vehicles shown on this website are offered
+              for sale by licensed motor vehicle dealers. All vehicles are
+              subject to prior sale. By accessing this website, you agree to the
+              TrueCar Terms of Service and Privacy Policy.
+            </p>
+          </div>
+          <nav class="copy__nav">
+            <ul class="copy__nav-list">
+              <li class="copy__nav-item">
+                <a href="#" class="copy__nav-link" title="Read our Terms of Service" aria-label="Terms of Service">Terms of Service</a>
+              </li>
+              <li class="copy__nav-item">
+                <a href="#" class="copy__nav-link" title="Review our Privacy Policy" aria-label="Privacy Policy">Privacy Policy</a>
+              </li>
+              <li class="copy__nav-item">
+                <a href="#" class="copy__nav-link" title="Manage your Personal Information preferences" aria-label="Do Not Sell My Personal Information"
+                  >Do Not Sell My Personal Information</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
